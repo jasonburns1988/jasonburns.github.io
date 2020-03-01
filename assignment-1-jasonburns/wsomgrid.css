@@ -1,0 +1,102 @@
+
+head {
+   background-color: white;
+}
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  line-height: 1.6em;
+  background-color: white;
+}
+
+h1, h2 {
+  color: #007e7e;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  color: navy;
+}
+
+.contactus {
+  grid-template-columns: 50% 50%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 5% 75% 10% 5%;
+  grid-gap: 1%;
+}
+
+.courseinfo {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  color: navy;
+}
+.mission {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  background-color: #a7cece;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+
+  margin: 30px;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 150px;
+
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: navy;
+
+  border-color: white;
+  border-width: 1px;
+  border-style: dashed;
+}
+#header {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+}
+
+#navigation {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+}
+
+#maincontent {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 70% 27%;
+  grid-gap: 3%;
+}
+
+#sidebar {
+  grid-column-start: 3;
+}
+
+#subheader {
+grid-column-start: 2;
+grid-column-end: span 3;
+}
+
+#primary {
+  grid-column-start: 1;
+}
+
+#secondary {
+  grid-column-start: 2;
+}
+
+#footer {
+  grid-column-start: 2;
+}
